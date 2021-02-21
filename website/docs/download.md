@@ -6,31 +6,27 @@ aside:
 permalink: /download/
 ---
 ## Current Beta Version
-### 3.0.0.1
+
+There are no current Beta versions available.
+
+## Current Production Version
+### 3.0.1.0
+
+[Download](https://home.memftw.com/download/7151/?version=3-0-1-0){: .button--info.button--pill}
 
 **Released**
-: TBD
+: 20 February, 2021
 
 **Fixed**
 : * Application trees in an [AppTree]({% link docs/reference/actionelements.md %}#apptree) interactive action no longer scroll to the bottom initially.
 * Fonts for [InputCheckbox]({% link docs/reference/allelements.md %}#inputcheckbox) field types on [Input]({% link docs/reference/actionelements.md %}#input) interactive actions are now shown properly.
-* Task sequence variable names for all actions corrected to proprly allow for dashes and follow the rules listsed in the [Custom variables](https://docs.microsoft.com/en-us/mem/configmgr/osd/understand/using-task-sequence-variables#bkmk_custom) official documentation.
+* Task sequence variable names for all actions corrected to properly allow for dashes and follow the rules listed in the [Custom variables](https://docs.microsoft.com/en-us/mem/configmgr/osd/understand/using-task-sequence-variables#bkmk_custom) official documentation.
 * The tree control in an [AppTree]({% link docs/reference/actionelements.md %}#apptree) interactive action is now set as initially focused.
 
 **Added**
 : * Successful authentication using a [UserAuth]({% link docs/reference/actionelements.md %}#userauth) dialog action now also populates the display name for the authenticated user in the **XAuthenticatedUserDisplayName** variable.
 * **NoDefaultButton** attribute for [AppTree]({% link docs/reference/actionelements.md %}#apptree) and [Input]({% link docs/reference/actionelements.md %}#input) interactive actions. This prevents pressing the Enter key from dismissing the dialog if a button does not have focus.
-
-## Previous Beta Versions
-### 3.0.0.0 
-
-[Download](https://home.memftw.com/download/7151/?version=3-0-0-0){: .button--info.button--pill}
-
-**Released**
-: 7 June, 2020
-
-**Added**
-: * Ability to specify a domain controller to use for a [UserAuth]({% link docs/reference/actionelements.md %}#userauth) dialog action using a new [DomainController]({% link docs/reference/actionelements.md %}#userauth) attribute.
+* Ability to specify a domain controller to use for a [UserAuth]({% link docs/reference/actionelements.md %}#userauth) dialog action using a new [DomainController]({% link docs/reference/actionelements.md %}#userauth) attribute.
 * Ability to specify a font for all UI++ elements using the [Font]({% link docs/reference/allelements.md %}#uipp) attribute.
 * Two new values to the [DefaultValues]({% link docs/reference/defaultvalues.md %}) action for the [Asset]({% link docs/reference/defaultvalues.md %}#asset) category: *XSystemDiskTotalSizeGB* and *XSystemDiskFreespaceGB*.
 * `Preview`{:.warning} [InfoFullScreen]({% link docs/actionconfig/infofullscreen.md %}) actions which create full-screen windows with an informational message.
@@ -41,7 +37,6 @@ permalink: /download/
 * New **TimeoutAction** value, **ContinueNoPreempt**, to the [Info]({% link docs/reference/actionelements.md %}#info) interactive dialog action to prevent users from dismissing this action. UI++ automatically dismisses the action when the timeout is reached.
 * [Status Message]({% link docs/configuration/statusmessages.md %}) customization.
 
-
 **Updated**
 : * Even more bugs that resulted in a crash when including User values in a **DefaultValues** action.
  * Default UI++ font is now Tahoma which is included in WinPE 5.0 and above.
@@ -51,12 +46,12 @@ permalink: /download/
  * Modified the wired LAN connection detection that is part of the [DefaultValues]({% link docs/reference/defaultvalues.md %}) action to not depend on localizable text in the Win32_NetworkAdapater WMI class's **AdapterType** property. **XWiredLANConnected** is now also set to *False* when no wired adapters are found at all.
  * The [AppTree]({% link docs/reference/actionelements.md %}#apptree) interactive action always creates one additional variable in the application and package variable lists with a blank value. This handles cases where the user returns to the **AppTree** and modifies the selected items so that fewer items are now selected.
  * Update the internal XML parser, [pugixml](https://pugixml.org/), to version 1.10.
+ * Binaries are now signed using a certificate from [OSCC](https://www.oscc.be/). Thank You Kim!
 
-
-## Current Production Version
+## Previous Stable Versions
 ### 2.11.1.2 
 
-[Download](https://home.memftw.com/download/7151/?version=2-11-1-2){: .button--info.button--pill}
+[Download](https://home.memftw.com/download/7151/?version=2-11-1-2){: .button--warning.button--pill}
 
 **Released**
 : 21 April, 2019
@@ -66,7 +61,6 @@ permalink: /download/
  * WMIRead action not working at all.
  * **DefaultValues** action now always hides the task sequence progress bar if the **DefaultValues** action shows its own progress bar.
 
-## Previous Stable Versions
 ### 2.11.1.1 
 
 [Download](https://home.memftw.com/download/7151/?version=2-11-1-1){: .button--warning.button--pill}

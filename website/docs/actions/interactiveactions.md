@@ -199,7 +199,7 @@ The [UserAuth]({% link docs/reference/actionelements.md %}#userauth) interactive
 8.  User authorization based on immediate group membership (not shown).
 
 ### Info (Full-Screen)
-`Preview`{:.warning} `3.0.0.0`{:.info}
+`Preview`{:.warning} `3.0.1.0`{:.info}
 {% figure caption:"An **UserAuth** action dialog" %}
   ![A UI++ InfoFullScreen action window](/assets/images/screenshots/dialog-infofullscreen2.png)
 {% endfigure %}

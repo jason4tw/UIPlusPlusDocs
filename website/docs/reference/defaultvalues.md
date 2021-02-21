@@ -30,8 +30,8 @@ The following reference lists all of the variables and their values that the [De
 | XHWModel              | The model of the hardware | Various based on the hardware vendor |
 | XHWProduct            | The product name of the hardware | Various based on the hardware vendor |
 | XHWSerialNumber       | The serial number of the hardware from the BIOS | Various based on the hardware vendor |
-| XSystemDiskTotalSizeGB `3.0.0.0`{:.info} | The total size (in GB) of the system disk (identified using the %SystemDrive% environment variable) | 500.00, 256.00, 1024.00[^2] |
-| XSystemDiskFreeSizeGB `3.0.0.0`{:.info} | The free space (in GB) on the system disk (identified using the %SystemDrive% environment variable) | 15.67, 189.12, 725.43[^2] |
+| XSystemDiskTotalSizeGB `3.0.1.0`{:.info} | The total size (in GB) of the system disk (identified using the %SystemDrive% environment variable) | 500.00, 256.00, 1024.00[^2] |
+| XSystemDiskFreeSizeGB `3.0.1.0`{:.info} | The free space (in GB) on the system disk (identified using the %SystemDrive% environment variable) | 15.67, 189.12, 725.43[^2] |
 | XHWUUID               | The UUID of the hardware |  |
 | XOnBattery          | Whether the system is currently on battery or not | * True, False |
 | XSystemUEFI         | Whether the system is in UEFI mode or not | * True, False |

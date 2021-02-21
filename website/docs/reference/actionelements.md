@@ -15,13 +15,13 @@ Displays a dialog with a tree of selectable applications and packages.
 ApplicationVariableBase
 : The base variable to populate with selected applications. Default is *XApplications*.)
 
-CenterTitle `3.0.0.0`{:.info}
+CenterTitle `3.0.1.0`{:.info}
 : Centers the action dialog's title text. (Valid values are *True* and *False*. Default is *False*.)
 
 Expanded
 : Sets whether the tree is expanded or not when the action is first launched. (Valid values are *True* and *False*. Default is *True*.)
 
-NoDefaultButton
+NoDefaultButton `3.0.1.0`{:.info}
 : Prevents pressing the Enter key from dismissing the dialog if a button does not have focus. (Valid values are *True* and *False*. Default is *False*.)
 
 PackageVariableBase
@@ -64,7 +64,7 @@ Displays an error dialog box. The actual text shown is from the value of this el
 
 Both the **Image** and **InfoImage** attributes can specify local images or those retrievable using an HTTP based URL; e.g., http://home.configmgrftw.com/images/coretechnew.png. Simply specify the URL instead of a local path for either of these attributes.
 
-CenterTitle `3.0.0.0`{:.info}
+CenterTitle `3.0.1.0`{:.info}
 : Centers the action dialog's title text. (Valid values are *True* and *False*. Default is *False*.)
 
 Image
@@ -79,7 +79,7 @@ Name
 ShowBack
 : Shows a back button on the dialog enabling the interactive user to return to the previous GUI based action. (Valid values are *True* and *False*. Default is *False*.) 
 
-ShowCancel `3.0.0.0`{:.info}
+ShowCancel `3.0.1.0`{:.info}
 : If set to *False* and UI++ is running in WinPE, UI++ shows a restart button instead of a cancel button. If set to *True* of UI++ is not running in WinPE, then UI++ shows a cancel button allowing the user to gracefully exit UI++ without proceeding. (Valid values are *True* and *False*. Default is *True*.)
 
 Title
@@ -114,7 +114,7 @@ Displays an info dialog box. The actual text shown is from the value of this ele
 
 Both the **Image** and **InfoImage** attributes can specify local images or those retrievable using an HTTP based URL; e.g., http://home.configmgrftw.com/images/coretechnew.png. Simply specify the URL instead of a local path for either of these attributes.
 
-CenterTitle `3.0.0.0`{:.info}
+CenterTitle `3.0.1.0`{:.info}
 : Centers the action dialog's title text. (Valid values are *True* and *False*. Default is *False*.)
 
 Image
@@ -136,13 +136,13 @@ Timeout `2.9.0.0`{:.info}
 : The number of seconds after which the dialog will be automatically dismissed. Default is *0* which results in the dialog not timing out at all.)
 
 TimeoutAction `2.9.0.0`{:.info}
-: The action to take when the dialog timeout elapses. (Valid values are *Continue*, *ContinueNoPreempt* `3.0.0.0`{:.info}, *Cancel* or a custom return code which also cancels the dialog and exits UI++ return the specified code. Default is *Continue*.)
+: The action to take when the dialog timeout elapses. (Valid values are *Continue*, *ContinueNoPreempt* `3.0.1.0`{:.info}, *Cancel* or a custom return code which also cancels the dialog and exits UI++ return the specified code. Default is *Continue*.)
 
 Title
 : The title text of the dialog box.
 
 ## InfoFullScreen
-`Preview`{:.warning} `3.0.0.0`{:.info}
+`Preview`{:.warning} `3.0.1.0`{:.info}
 Displays information to the interactive user using a full-screen, always on top, dialog. The actual text shown is from the value of this element and not an attribute.
 
 The **Image** attribute can specify a local image or one retrievable using an HTTP based URL; e.g., http://home.configmgrftw.com/images/ElkwaterUnited-big.png. Simply specify the URL instead of a local path for the attribute.
@@ -162,13 +162,13 @@ TextColor
 ## Input
 Displays a dialog with a series of customizable text input boxes, combo/choice boxes, and info text.
 
-CenterTitle `3.0.0.0`{:.info}
+CenterTitle `3.0.1.0`{:.info}
 : Centers the action dialog's title text. (Valid values are *True* and *False*. Default is *False*.)
 
 Name
 : The name of the dialog box.
 
-NoDefaultButton
+NoDefaultButton `3.0.1.0`{:.info}
 : Prevents pressing the Enter key from dismissing the dialog if a button does not have focus. (Valid values are *True* and *False*. Default is *False*.)
 
 ShowBack
@@ -186,7 +186,7 @@ Title
 ## Preflight
 Displays a dialog containing “preflight” checks. All checks must pass for the dialog to be able to be dismissed successfully. If any checks do not pass, dismissing the dialog results in an error code and a halt to UI++.
 
-CenterTitle `3.0.0.0`{:.info}
+CenterTitle `3.0.1.0`{:.info}
 : Centers the action dialog's title text. (Valid values are *True* and *False*. Default is *False*.)
 
 ShowBack
@@ -324,10 +324,10 @@ DisableCancel `2.9.3.0`{:.info}
 Domain*
 : The default domain to authenticate the user against. This should be in the form of an FQDN.
 
-DomainController `3.0.0.0`{:.info}
+DomainController `3.0.1.0`{:.info}
 : Specifies a domain controller to use for authentication. If UI++ cannot contact this domain controller, then authentication falls back to searching for and using the closest domain controller.
 
-DoNotFallback `3.0.0.0`{:.info}
+DoNotFallback `3.0.1.0`{:.info}
 : If a domain controller is specified using the **DomainController** attribute, setting this attribute to *True* prevents UI++ from searching for a domain controller if the specified domain controller is unreachable. (Valid values are *True* and *False*. Default is *False*.)
 
 GetGroups

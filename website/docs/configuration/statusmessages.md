@@ -7,7 +7,7 @@ sidebar:
   nav: docs
 ---
 
-`3.0.0.0`{:.info} UI++ displays status messages near the bottom of interactive action dialogs in various scenarios to relay information to the interactive user. You can customize these messages by supplying alternate text in the configuration XML.
+`3.0.1.0`{:.info} UI++ displays status messages near the bottom of interactive action dialogs in various scenarios to relay information to the interactive user. You can customize these messages by supplying alternate text in the configuration XML.
 
 The following table lists the status messages that UI++ supports for customization.
 

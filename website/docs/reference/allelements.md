@@ -231,7 +231,7 @@ NumberofLines
 ## InputText
 Defines a text input box to add to an [Input]({% link docs/reference/actionelements.md %}#input) action dialog.
 
-ADValidate `3.0.0.0`{:.info}
+ADValidate `3.0.1.0`{:.info}
 : Validates the input against Active Directory using the credentials of the account entered in a previous [UserAuth]({% link docs/reference/actionelements.md %}#userauth) action dialog. (Valid values are *Computer*, *ComputerWarning*, *User* and *UserWarning*. There is no default value. Note that the values *True* and *False* are now deprecated but for backwards compatibility, *True* equates to *Computer*.)
 
 Default
@@ -258,7 +258,7 @@ Question*
 RegEx
 : The regular expression used to validate the text entered into the text box.
 
-ReadOnly `3.0.0.0`{:.info}
+ReadOnly `3.0.1.0`{:.info}
 : Setting this to *True* prevents the user from changing the value and the **Required** attribute is ignored. (Valid values are *True* and *False*. Default is *False*.)
 
 Required
@@ -293,7 +293,7 @@ VersionOperator
 [^2]: regular expression
 
 ## Messages
-`3.0.0.0`{:.info} Contains custom status message text.
+`3.0.1.0`{:.info} Contains custom status message text.
 
 There are no configurable attributes for this element.
 
@@ -302,7 +302,7 @@ There are no configurable attributes for this element.
 | [UIpp](#uipp)                  | [Message](#message) |
 
 ## Message
-`3.0.0.0`{:.info} Contains the custom text for a specific [Status Message]({% link docs/configuration/statusmessages.md %}). The value of this element contains the customized text.
+`3.0.1.0`{:.info} Contains the custom text for a specific [Status Message]({% link docs/configuration/statusmessages.md %}). The value of this element contains the customized text.
 
 Id*
 : The Id of the status message to customize the text for.
@@ -465,7 +465,7 @@ DialogSidebar `2.11.0.0`{:.info}
 Flat `2.9.1.0`{:.info}
 : Shows action dialogs using a flat look and feel. (Valid values are *True* and *False*. Default is *False*.)
 
-Font `3.0.0.0`{:.info}
+Font `3.0.1.0`{:.info}
 : The font face name of all UI++ elements (except the tree control within an [AppTree]({% link docs/reference/actionelements.md %}#AppTree) action dialog. (Valid values are name of any valid font installed on the system. Default is *Tahoma*.)
 
 Icon

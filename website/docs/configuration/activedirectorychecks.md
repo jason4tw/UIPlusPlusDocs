@@ -7,7 +7,7 @@ sidebar:
   nav: docs
 ---
 
-`3.0.0.0`{:.info} UI++ can check the value of an **InputText** item within an [Input]({% link docs/reference/actionelements.md %}#input) interactive action against Active Directory. This check determines whether or not a user or computer object exists in Active Directory with a name based on the value entered by the user. UI++ uses the credentials of the user authenticated in a preceding [UserAuth]({% link docs/reference/actionelements.md %}#userauth) interactive action to perform these checks.
+`3.0.1.0`{:.info} UI++ can check the value of an **InputText** item within an [Input]({% link docs/reference/actionelements.md %}#input) interactive action against Active Directory. This check determines whether or not a user or computer object exists in Active Directory with a name based on the value entered by the user. UI++ uses the credentials of the user authenticated in a preceding [UserAuth]({% link docs/reference/actionelements.md %}#userauth) interactive action to perform these checks.
 
 There are four possible checks, as summarized in the following table.
 
