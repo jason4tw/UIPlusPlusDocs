@@ -10,9 +10,24 @@ permalink: /download/
 There are no current Beta versions available.
 
 ## Current Production Version
-### 3.0.1.0
+### 3.0.2.0
 
-[Download](https://home.memftw.com/download/7151/?version=3-0-1-0){: .button--info.button--pill}
+[Download](https://home.memftw.com/download/7151/?version=3-0-2-0){: .button--info.button--pill}
+
+**Released**
+: 28 February, 2021
+
+**Fixed**
+: * Scrollbar mistakenly appearing on [Preflight]({% link docs/reference/actionelements.md %}#preflight) interactive dialog actions.
+* Issue causing [InputChoice]({% link docs/reference/allelements.md %}#inputchoice) field types on [Input]({% link docs/reference/actionelements.md %}#input) interactive actions to be nearly unclickable.
+* Issue causing the **XCurrentComputerJoinedToDomain** variable's value to always be set to false.
+
+**Added**
+: * Sidebar text color configuration using the SidebarTextColor attribute of the [UIpp]({% link docs/reference/allelements.md %}#uipp) configuration file element.
+
+## Previous Stable Versions
+
+### 3.0.1.0
 
 **Released**
 : 20 February, 2021
@@ -48,7 +63,6 @@ There are no current Beta versions available.
  * Update the internal XML parser, [pugixml](https://pugixml.org/), to version 1.10.
  * Binaries are now signed using a certificate from [OSCC](https://www.oscc.be/). Thank You Kim!
 
-## Previous Stable Versions
 ### 2.11.1.2 
 
 [Download](https://home.memftw.com/download/7151/?version=2-11-1-2){: .button--warning.button--pill}

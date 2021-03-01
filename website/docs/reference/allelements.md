@@ -471,6 +471,9 @@ Font `3.0.1.0`{:.info}
 Icon
 : The icon to display in every action dialog shown.
 
+SidebarTextColor `3.0.2.0`{:.info}
+: The hexadecimal color of the text in the sidebar. (Valid values are hexadecimal RGB color values prefixed with a #. Default value is *#FFFFFF*.)
+
 Title
 : The title used in the sidebar of every action dialog shown.	
 

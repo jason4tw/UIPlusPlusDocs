@@ -20,7 +20,7 @@ The following are multiple examples using variable replacement.
 ~~~ xml
 <Action Type="TSVar" Name="OSDComputerName" >"Prefix-" & Left("%XHWAssetTag%", 7)</Action>
 
-<Action Type="TSVar" Name="OSDDomainOUName" Condition='"%XHWChassisType" = "Laptop" Or "%XHWChassisType" = "Desktop"'>ou=Computers,ou=%Location%,dc=domain,dc=com</Action>
+<Action Type="TSVar" Name="OSDDomainOUName" Condition='"%XHWChassisType%" = "Laptop" Or "%XHWChassisType%" = "Desktop"'>ou=Computers,ou=%Location%,dc=domain,dc=com</Action>
 
 <Action Type="Info" Name="FinalInfo" Title="Summary" ShowCancel="True" ShowBack="True" >
       <![CDATA[<b>System name:</b>  %OSDComputerName%<br><b>OU:</b>  %OSDDomainOUName%<br><b>Timezone:</b>  %Timezone%]]>
