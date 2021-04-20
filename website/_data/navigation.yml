@@ -16,6 +16,14 @@ header:
     url: /download
 
   - titles:
+      en      : &EN       Terms of Use
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+    url: /termsofuse
+
+  - titles:
       en      : &EN       Support
       en-GB   : *EN
       en-US   : *EN

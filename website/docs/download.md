@@ -10,9 +10,21 @@ permalink: /download/
 There are no current Beta versions available.
 
 ## Current Production Version
-### 3.0.2.0
+### 3.0.3.0
 
-[Download](https://home.memftw.com/download/7151/?version=3-0-2-0){: .button--info.button--pill}
+[Download](https://home.memftw.com/download/7151/?version=3-0-3-0){: .button--info.button--pill}
+
+**Released**
+: 15 March, 2021
+
+**Fixed**
+: * [Input]({% link docs/reference/actionelements.md %}#input) interactive action with Size='Tall' throwing an exception and failing.
+* Read-only task sequence variables not being replaced when referenced anywhere in the configuration.
+
+**Updated**
+: * [InputText]({% link docs/reference/allelements.md %}#inputtext) field types on [Input]({% link docs/reference/actionelements.md %}#input) interactive actions marked as password no longer have their values written to the log file.
+
+### 3.0.2.0
 
 **Released**
 : 28 February, 2021
@@ -20,7 +32,7 @@ There are no current Beta versions available.
 **Fixed**
 : * Scrollbar mistakenly appearing on [Preflight]({% link docs/reference/actionelements.md %}#preflight) interactive dialog actions.
 * Issue causing [InputChoice]({% link docs/reference/allelements.md %}#inputchoice) field types on [Input]({% link docs/reference/actionelements.md %}#input) interactive actions to be nearly unclickable.
-* Issue causing the **XCurrentComputerJoinedToDomain** variable's value to always be set to false.
+* Issue causing the **XCurrentComputerJoinedToDomain** variable's value to always be false.
 
 **Added**
 : * Sidebar text color configuration using the SidebarTextColor attribute of the [UIpp]({% link docs/reference/allelements.md %}#uipp) configuration file element.

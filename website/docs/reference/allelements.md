@@ -247,7 +247,7 @@ HScroll
 : Enables horizontal scrolling of the edit box allowing up to 256 characters to be entered. (Valid values are *True* and *False*. Default is *False*.)
 
 Password
-: Hides the user input similar to entering a password. (Valid values are *True* and *False*. Default is *False*.)
+: Hides the user input similar to entering a password. `3.0.3.0`{:.info} UI++ does not write the value entered by users to the log file when this attribute is *True*. (Valid values are *True* and *False*. Default is *False*.)
 
 Prompt
 : The prompt text displayed within the text box when it is empty.
