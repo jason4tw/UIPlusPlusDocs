@@ -26,7 +26,7 @@ The following snippet creates an [Input]({% link docs/reference/actionelements.m
 ## InputText
 
 {% figure caption:"An Input action dialog with a single InputText" %}
-  ![An Input action dialog with a single InputText](/assets/images/screenshots/dialog-input-InputText-2.png)
+  ![An Input action dialog with a single InputText](/assets/images/screenshots/dialog-input-inputtext-2.png)
 {% endfigure %}
 {: .figure--floatright }
 {: #screenshot }
@@ -67,7 +67,7 @@ You can configure UI++ to validate the value entered in an **InputText** item ag
 This input type displays a drop-down list box (also known as a combo-box) to the user from which they can choose a value in response to a question or prompt. Free text-entry is not allowed. You can specify a default value, but one is not required. Based on the user choice, the **Input** action places the selected option or an alternate value in the specified variable. Optionally, the task can also place an additional, second alternate value in an alternate variable.
 
 {% figure caption:"An Input action dialog with a single required InputChoice" %}
-  ![An Input action dialog with a single required InputChoice](/assets/images/screenshots/dialog-input-InputChoice-2.png)
+  ![An Input action dialog with a single required InputChoice](/assets/images/screenshots/dialog-input-inputchoice-2.png)
 {% endfigure %}
 {: .figure--floatright }
 {: #screenshot }
@@ -92,7 +92,7 @@ The following example prompts the user to select an OU for the system and, based
 ~~~
                     
 {% figure caption:"An Input action dialog with a single non-required, AutoComplete InputChoice" %}
-  ![An Input action dialog with a single non-required, AutoComplete InputChoice](/assets/images/screenshots/dialog-input-InputChoice-3.png)
+  ![An Input action dialog with a single non-required, AutoComplete InputChoice](/assets/images/screenshots/dialog-input-inputchoice-3.png)
 {% endfigure %}
 {: .figure--floatright }
 {: #screenshot }
@@ -114,7 +114,7 @@ The following example shows loading the options and alternate values from two se
 ## InputCheckbox
 
 {% figure caption:"An Input action dialog with a InputCheckbox" %}
-  ![An Input action dialog with a InputCheckbox](/assets/images/screenshots/dialog-input-InputCheckbox-2.png)
+  ![An Input action dialog with a InputCheckbox](/assets/images/screenshots/dialog-input-inputcheckbox-2.png)
 {% endfigure %}
 {: .figure--floatright }
 {: #screenshot }
@@ -132,7 +132,7 @@ This example builds on the one from the InputText section above and adds a check
 
 ## InputInfo
 {% figure caption:"An Input action dialog with a InputCheckbox" %}
-  ![An Input action dialog with an InputInfo](/assets/images/screenshots/dialog-input-InputCheckbox-3.png)
+  ![An Input action dialog with an InputInfo](/assets/images/screenshots/dialog-input-inputcheckbox-3.png)
 {% endfigure %}
 {: .figure--floatright }
 {: #screenshot }

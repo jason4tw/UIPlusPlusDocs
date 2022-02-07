@@ -24,4 +24,4 @@ BY USING THE SOFTWARE, YOU AGREE TO BE BOUND BY THE TERMS LISTED BELOW. IF YOU D
 
 7. **NO LIABILITY**. UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT, CONTRACT, OR OTHERWISE, WILL JASON SANDYS BE LIABLE TO YOU FOR ANY DAMAGES OF ANY KIND, WHETHER SUCH DAMAGES ARE CATEGORIZED AS DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF PROFITS OR GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR FOR ANY OTHER DAMAGE OR LOSS.
 
-8. **INDEMNIFICATION**. You agree to indemnify and hold Jason Sandys harmless from any claim or demand, including attorney's fees, made by any third party due to or arising out of Your use of the Software in breach of this Agreement, or in violation of the rights of a third party.
+8. **HARMLESS**. You agree to hold Jason Sandys harmless from any claim or demand, including attorney's fees, made by any third party due to or arising out of Your use of the Software in breach of this Agreement, or in violation of the rights of a third party.
